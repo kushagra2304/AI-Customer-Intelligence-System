@@ -1,0 +1,31 @@
+{
+  "name": "beastlife-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Beastlife AI Customer Intelligence",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/data/seedData.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "langchain": "^0.1.30",
+    "@langchain/openai": "^0.0.28",
+    "@langchain/community": "^0.0.48",
+    "chromadb": "^1.7.3",
+    "openai": "^4.28.0",
+    "morgan": "^1.10.0",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "uuid": "^9.0.0",
+    "date-fns": "^3.3.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
